@@ -1,0 +1,134 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #dedede;
+}
+header{
+	height: 50px;
+	width: 100%;
+	background-color: #353535;
+}
+footer{
+	padding: 20px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+article{
+	margin: 15px;
+	padding: 15px;
+	box-shadow: 2px 2px 2px gray;
+	background-color: white;
+}
+h4{
+	color: grey;
+}
+p{
+	text-indent: 2em;
+}
+span{
+	margin: 4px;
+}
+textarea{
+	width: 30em;
+    height: 6em;
+}
+input[type="submit"]{
+	display: block;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;    
+    color: white;
+    font-size: 20px;
+    border: 0;
+    background-color: blue;
+    border-radius: 10px;
+}
+header img{
+	height: 50px;
+}
+ul{
+	padding: 0 15px;
+}
+ul.nav{	
+	display: inline-flex;
+	float: right;
+	top: 15px;
+	color: black;
+}
+li{
+	margin: 0 10px;
+}
+p.author{
+	font-size: 0.8em;
+	text-indent: 0em;
+	color: grey;	
+}
+ol{
+	font-weight: bold;
+}
+h2.sidebar{
+	position: relative;
+    left: 15px;
+    line-height: 2em;
+}
+h2.sidebar:before {
+	position: absolute;
+	right: 0;
+    top: 0;
+    bottom: 0;   
+    left: -15px;
+    content: " ";
+    width: 4px;
+    background-color: #c1c1c1;
+}
+.nav a{
+	text-decoration: none;
+	color: white;	
+}
+.nav a:link{
+	color: white;	
+}
+.nav a:visited{
+	color: gray;	
+}
+.table-header{
+	color: white;
+	font-weight: bold;
+	background-color: #212121;
+}
+.form-key{
+	float: left;
+	display: inline-block;
+	margin: 4px;
+	width: 40%;
+	text-align: right;
+}
+.form-value{
+	/*float: right;*/
+	/*width: 60%;*/
+	display: inline-block;
+	/*text-align: left;*/
+}
+.form-msg{
+	color: gray;
+}
+.form-content{
+	margin: 10px;
+}
+.img-containar{
+	display: inline-block;	
+	margin: 15px;
+	padding: 15px;	
+	border: 1px solid gray;
+}
+.img-title{
+	margin:0 auto 15px auto;
+	text-indent: 0;
+	text-align: center;
+}
+.li-nonestyle{
+    list-style-type: none;
+}
