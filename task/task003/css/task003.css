@@ -21,7 +21,7 @@ aside.leftsidebar{
 	border: 1px solid #999;
 }
 aside.leftsidebar img{
-	/*float: left;*/
+	float: left;
 	margin: 20px;
 	width: 80px;
 	height: 80px;
@@ -43,6 +43,7 @@ aside.rightsidebar{
 	border: 1px solid #999;
 }
 aside.rightsidebar img{
+	display: block;
 	margin: 20px;
 	width: 80px;
 	height: 80px;
