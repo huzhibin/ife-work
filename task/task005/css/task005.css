@@ -127,6 +127,7 @@ h2.sidebar:before {
 	margin: 10px;
 }
 .img-containar{
+	float: left;
 	display: inline-block;	
 	margin: 15px;
 	padding: 15px;	
