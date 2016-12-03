@@ -1,9 +1,12 @@
 .left-aside{
 	margin: 0 430px 0 0;
+	min-width: 300px;
 }
 .right-aside{
+	margin: 0;
+	padding: 0;
 	float: right;
-	width: 400px;
+	width: 445px;
 }
 body{
 	margin: 0;
@@ -16,7 +19,7 @@ header{
 	background-color: #353535;
 }
 footer{
-	padding: 20px;
+	padding: 20px 0;
  	width: 100%; 
 	height: 50px;
 	text-align: center;
@@ -24,8 +27,8 @@ footer{
 	background-color: black;
 }
 article{
-	margin: 15px;
-	padding: 15px;
+	margin: 20px;
+	padding: 20px;
 	box-shadow: 2px 2px 2px gray;
 	background-color: white;
 }
@@ -57,12 +60,12 @@ header img{
 	height: 50px;
 }
 ul{
-	padding: 0 15px;
+	padding: 0 20px;
 }
 ul.nav{	
 	display: inline-flex;
 	float: right;
-	top: 15px;
+	top: 20px;
 	color: black;
 	list-style-type: none;
 }
@@ -79,7 +82,7 @@ ol{
 }
 h2.sidebar{
 	position: relative;
-    left: 15px;
+    left: 20px;
     line-height: 2em;
 }
 h2.sidebar:before {
@@ -109,27 +112,41 @@ h2.sidebar:before {
 }
 .form-key{
 	float: left;
-	display: inline-block;
-	margin: 4px;
+	margin: 0;
+	display: block;
+	box-sizing: border-box;
 	width: 40%;
+	min-width: 120px;
+	min-height: 40px;
+	padding: 10px;
 	text-align: right;
 }
 .form-value{
+	margin: 0;
+	display: block;
+	box-sizing: border-box;
 	/*float: right;*/
-	/*width: 60%;*/
-	display: inline-block;
-	/*text-align: left;*/
+	width: 60%;
+	min-width: 120px;
+	min-height: 40px;
+	padding: 10px;
+	margin: 0 0 0 40%;
 }
 .form-msg{
 	color: gray;
 }
 .form-content{
-	margin: 10px;
+	/*margin: 10px;*/
+	overflow: auto;
+}
+.img-article{
+	/*overflow: auto;*/
 }
 .img-containar{
+	/*float: left;*/
 	display: inline-block;	
-	margin: 15px;
-	padding: 15px;	
+	margin: 20px;
+	padding: 20px;	
 	border: 1px solid gray;
 }
 .img-title{
