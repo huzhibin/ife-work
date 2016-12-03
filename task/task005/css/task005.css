@@ -7,11 +7,13 @@
 	padding: 0;
 	float: right;
 	width: 445px;
+	/*min-width: 300px;*/
 }
 body{
 	margin: 0;
 	padding: 0;
 	background-color: #dedede;
+	min-width: 800px;
 }
 header{
 	height: 50px;
