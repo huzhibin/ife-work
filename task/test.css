@@ -1,0 +1,32 @@
+.main-wrapper{
+	margin: 0;
+	padding: 0;
+}
+.line{
+	overflow: auto;
+	/*margin: 15px;
+	background-color: #fff;
+	border: 1px solid #111;*/
+}
+.left-side{
+	float: left;
+	text-align: right;
+	box-sizing: border-box;
+	width: 40%;
+	min-width: 160px;
+	min-height: 40px;
+	padding: 10px;
+	background-color: #444;
+	border: 1px solid #ccc;
+}
+.right-side{
+	box-sizing: border-box;
+	/*float: right;*/
+	width: 60%;
+	min-width: 160px;
+	min-height: 40px;
+	padding: 10px;
+	margin: 0 0 0 40%;
+	background-color: #777;
+	border: 1px solid #999;
+}
