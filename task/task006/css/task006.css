@@ -1,0 +1,137 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+div.newspaper{
+	box-sizing: border-box;
+	width: 982px;
+	height: 1386px;
+	margin: 0 auto;
+	padding: 0 44px;
+	border: 1px solid black;
+}
+header{
+	position: relative;
+	border-bottom: 2px solid #938e8c;
+}
+div.top{
+	position: relative;
+}
+div.center{
+
+}
+div.bottom{
+
+}
+footer{
+
+}
+div.header-logo{
+	position: relative;
+	width: 110px;
+	height: 61px;
+	background-color: red;
+}
+span.header-logo{
+	position: absolute;
+	bottom: 0;		
+	color: #fff;
+	font: 12px SimHei;	
+}
+span.header-date{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #d45d5c;
+	font: 12px SimHei;
+}
+div.hot-image{
+	position: relative;
+	margin: 20px 0;
+	width: 641px;
+	height: 301px;
+}
+img.hot-image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 641px;
+	height: 301px;	
+}
+div.hot-image-left-mask{
+	position: absolute;
+	left: 0;
+	width: 191px;
+	height: 301px;
+	background-color: green;
+	opacity: 0.4;
+}
+div.hot-image-right-mask{
+	position: absolute;
+	right: 0;
+	width: 191px;
+	height: 301px;
+	background-color: red;
+	opacity: 0.4;
+}
+aside.about{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 203px;
+	height: auto;
+	margin: 20px 0;
+	border-top: 2px solid #cc8091;
+	box-sizing: border-box;
+	font-family: Microsoft YaHei;
+}
+h1.about-title{
+	margin: 0;
+	color: #000;
+	font-size: 24px;
+	text-decoration: underline;
+}
+h1.about-title:first-letter{
+	/*font-size: 150%;*/
+}
+p.about-summary{
+	margin: 0;
+	color: #676767;
+	font-size: 12px;
+	font-style: italic;
+	font-family: KaiTi;
+}
+p.about-hot-number{
+	margin: 0;
+	color: #75b86b;
+	line-height: 136px;
+	font-size: 116px;
+	font-style: italic;
+}
+span.about-sub-hot{
+	display: inline-block;
+	color: #cc8091;
+	font-size: 55px;
+	/*line-height: 55px;*/
+}
+span.about-sub{
+	position: relative;
+	display: inline-block;
+}
+span.about-sub-title{
+	position: absolute;
+	bottom: 12px;
+	display: inline-block;
+	color: #cc8091;
+	font-size: 21px;
+	line-height: 21px;
+}
+span.about-sub-summary{
+	position: absolute;
+	display: inline-block;
+	bottom: 0;
+	color: #cc8091;
+	font-size: 12px;
+	line-height: 12px;
+}
