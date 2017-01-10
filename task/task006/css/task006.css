@@ -17,18 +17,27 @@ header{
 }
 div.top{
 	position: relative;
-	margin: 20px 0;
+	margin: 40px 0;
 }
 div.center{
 	position: relative;
-	margin: 20px 0;
+	margin: 40px 0;
 }
 div.bottom{
 	position: relative;
 	margin: 40px 0 20px 0;
 }
 footer{
-
+	position: relative;
+	border-bottom: 1px solid #938e8c;
+}
+footer span{
+	display: block;
+	position: absolute;
+	right: 0;
+	color: #d45d5c;
+	font: 12px SimHei;
+	line-height: 20px;
 }
 div.header-logo{
 	position: relative;
@@ -96,9 +105,10 @@ aside.about{
 h1.about-title{
 	margin: 0;
 	color: #000;
-	line-height: 40px;
+	/*line-height: 40px;*/
 	font-size: 24px;
 	font-weight: normal;
+	font-variant: small-caps;
 	text-decoration: underline;
 }
 h1.about-title:first-letter{
@@ -116,6 +126,7 @@ p.about-hot-number{
 	margin: 0;
 	color: #75b86b;
 	line-height: 136px;
+	font-weight: bold;
 	font-size: 116px;
 	font-style: italic;
 }
@@ -243,7 +254,7 @@ h1.main span{
 	font-style: italic;
 }
 h2.main{
-	margin: 0;
+	margin: 0 0 20px 0;
 	padding: 0;
 	color: #11456b;
 	line-height: 49px;
@@ -252,15 +263,173 @@ h2.main{
 	font-weight: bold;
 	border-bottom: 2px solid #11456b;
 }
-article p.main{
+article.main p.main{
+	margin: 0;
 	color: #767777;
-	/*line-height: 49px;*/
+	line-height: 16px;
 	font-size: 12px;
 	font-family: SimSun;
+	text-align: justify;
 	text-indent: 2em;
+}
+article.main p.no-indent{
+	text-indent: 0;
+}
+article.main p.main span{
+	float: left;
+	color: #f5e327;
+	font-size: 70px;
+	line-height: 80px;
+	font-family: Microsoft YaHei;
 }
 article.main img{
 	float: right;
 	width: 150px;
 	margin: 10px 0 10px 10px;
+}
+div.bottom-right{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0 0 auto;
+}
+div.bottom-right img{
+	width: 458px;
+	height: 275px;
+}
+div.bottom-hot-image-wrapper{
+	position: relative;
+	width: 458px;
+	height: 275px;
+}
+div.bottom-hot-image-wrapper div{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 61px;
+	width: 458px;
+}
+div.bottom-hot-image-wrapper div.mask{
+	background-color: black;
+	opacity: 0.4;
+}
+div.bottom-hot-image-wrapper div h1{
+	/*position: absolute;
+	bottom: 8px;
+	left: 20px;*/
+	display: inline-block;
+	height: 44px;
+	margin: 8px 0 auto 40px;
+	padding-left: 15px;
+	padding-left: 10px;
+	border-left: 3px  solid #72b16a;
+	color: #fff;
+	line-height: 44px;
+	font-size: 26px;
+	font-family: Microsoft YaHei;
+}
+div.bottom-hot-image-wrapper div span{
+	/*display: inline-block;*/
+	/*vertical-align: bottom;*/
+	/*height: 44px;*/
+	margin-left: 10px;
+	color: #72b16a;
+	letter-spacing: 140%;
+	font-size: 12px;
+	font-style: italic;
+	font-family: Microsoft YaHei;
+}
+div.bottom-menu{
+	position: relative;
+	overflow: auto;
+	width: 458px;
+	margin: 20px 0 20px auto;
+	background-color: #eeedd6;
+}
+div.bottom-menu dl{
+	margin: 20px;
+	/*padding: 20px;*/
+	color: #5a5b5b;
+	line-height: 36px;
+	font-size: 16px;
+	font-family: SimSun;
+}
+div.bottom-menu dl span{
+	display: inline-block;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #006;
+    width: 0;
+    height: 0;
+}
+div.bottom-menu div.left-box{
+	float: left;
+	width: 260px;
+	height: 160px;
+	background-color: #d45d5c;
+}
+div.bottom-menu div.left-box span.num{
+	display: block;
+    float: left;
+    /* margin-top: 37px; */
+    /* height: 86px; */
+    color: #fff;
+    line-height: 160px;
+    font-size: 110px;
+    font-family: Microsoft YaHei;
+    /* border-right: 2px solid #fff; */
+}
+div.bottom-menu div.left-box span.sub-title{
+	float: left;
+    display: block;
+    /* height: 160px; */
+    width: 150px;
+    margin: 10px;
+    margin-top: 37px;
+    font-style: italic;
+    color: #fff;
+    /* font-size: 116px; */
+    font-family: Microsoft YaHei;
+}
+div.bottom-menu div.left-box span.sub-summary{
+	 float: left;
+    font-size: 12px;
+    width: 150px;
+    margin: 10px;
+    margin-top: 0;
+    /* font-style: italic; */
+    color: white;
+    font-family: Microsoft YaHei;
+}
+   
+.p-bug{
+	float: left;
+	width: 178px;
+	margin: 0;
+	padding: 0 10px;
+	color: #5a5b5b;
+	font-size: 14px;
+	font-style: italic;
+	font-family: SimHei;
+}
+#upper-quote{
+	vertical-align: -5px;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+}
+#lower-quote{
+	height: 40px;
+	width: 40px;    margin-left: 40px;
+    transform: rotate(180deg);
+    height: 40px;
+    vertical-align: top;
+    width: 40px;
+}
+#vertical-line{
+	float: left;
+	display: block;
+	margin-top: 37px;
+	height: 86px;
+	border-right: 2px solid white;
 }
