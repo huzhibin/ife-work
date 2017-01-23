@@ -1,0 +1,135 @@
+body{
+	width: 100%;
+	margin: 0;
+}
+table{
+	width: 50%;
+	border: 1px solid white;
+	margin: 0 auto;
+}
+th,td{
+	border: 1px solid white;
+}
+table tr{
+	color: red;
+}
+table tr:nth-of-type(odd){
+	background-color: #cecdc8;
+}
+table tr:nth-of-type(even){
+	background-color: white;
+}
+table tr:nth-of-type(n+5){
+	color: black;
+}
+table tr:first-of-type{
+	background-color: black;
+	color: white;
+}
+table tr:hover{
+	background-color: grey;
+}
+input{
+	display: block;
+	height: 2em;
+	width: 100px;
+	margin: 50px auto;
+	transition: width 0.5s ease-in-out;
+}
+input:focus{
+	width: 200px;
+}
+div.banner-wrapper{
+	position: relative;
+	height: 200px;
+	width: 300px;
+	margin: 100px auto;
+	overflow: hidden;
+	/*background-color: green;*/
+}
+.banner-wrapper .container{
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	width: 300px;
+	height: 200px;
+	background-color: pink;
+	/*animation: focusmap 9s infinite;*/
+	/*animation-name: focusmap; 					//检索或设置对象所应用的动画名称*/
+	/*animation-duration: 9s;						//检索或设置对象动画的持续时间*/
+	/*animation-timing-function: ;				//检索或设置对象动画的过渡类型*/
+    /*animation-delay: ;							//检索或设置对象动画延迟的时间*/
+    /*animation-iteration-count: infinite;		//检索或设置对象动画的循环次数*/
+    /*animation-direction: ;						//检索或设置对象动画在循环中是否反向运动*/
+    /*animation-fill-mode: ;						//检索或设置对象动画时间之外的状态*/
+    /*animation-play-state: ;						//检索或设置对象动画的状态。w3c正考虑是否将该属性移除，因为动画的状态可以通过其它的方式实现，比如重设样式*/
+}
+.container .banner{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: -100%;
+	margin: 0;
+	animation: slide-out .5s linear;
+}
+.container .banner:target{
+	left: 0;
+	animation: slide-in .5s linear;
+}
+@keyframes slide-in{
+	0%{
+		left: 100%;
+	}
+	100%{
+		left: 0;
+	}
+}
+@keyframes slide-out{
+	0%{
+		left: 0;
+	}
+	100%{
+		left: -100%;
+	}
+}
+@keyframes slide-auto{
+	0%{
+		left: 0;
+	}
+	100%{
+		left: -100%;
+	}
+}
+#slide-1{
+	background-color: green;
+}
+#slide-2{
+	background-color: blue;
+}
+#slide-3{
+	background-color: orange;
+}
+.banner-wrapper a{
+	float: right;
+	margin: 0 1px;
+	display: block;
+	/*position: absolute;*/
+	width: 1.6em;
+	height: 1.6em;
+	line-height: 1.6em;
+	right: 0;
+	bottom: 0;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	font-family: microsoft yahei;
+	background-color: rgba(255,255,255,0.5);
+}
+.slide-wrapper{
+	position: absolute;
+	width: 300px;
+	
+	left: 0;
+	bottom: 0;
+	overflow: auto;
+}
