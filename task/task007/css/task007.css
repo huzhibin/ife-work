@@ -384,3 +384,138 @@ header ul li:hover{
 	color: #fff;	
 	border: 1px solid #fff;
 }
+footer{
+	overflow: auto;
+	margin-top: 100px;
+	background-color: #33363f;
+}
+footer p{
+	text-align: center;
+	color: white;
+	margin: 0 30%;
+}
+footer p:nth-of-type(1){
+	font-size: 1.2em;
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+footer p:nth-of-type(2){
+	font-size: 0.6em;
+	line-height: 1.6em;
+}
+footer div.email-wrapper{
+	position: relative;
+	height: 2.7em;
+	width: 42%;
+	line-height: 2.7em;
+	font-size: 16px;
+	margin: 30px auto;
+}
+footer .email-wrapper input[type="text"]{
+	display: block;
+	box-sizing: border-box;
+	height: 100%;
+	width: 85%;
+	font-size: 1em;
+	/*margin-right: 20%;*/
+	padding:0 10px;
+}
+footer .email-wrapper span{
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0;
+	width: 15%;
+	height: 100%;
+	line-height: inherit;
+	text-align: center;
+	background-color: #717179;
+	letter-spacing: 0.5em;
+	text-indent: 0.5em;
+	color: white;
+	margin: 0;
+}
+footer div:last-of-type{
+	background-color: #30303a;
+	height: 60px;
+	color: white;
+	font-size: 0.8em;
+	line-height: 60px;
+	overflow: auto;
+}
+footer div:last-of-type span:first-child{
+	float: left;
+	margin: 0 100px;
+}
+footer div:last-of-type a:last-child{
+	float: right;
+	margin: 0 100px;
+	text-decoration: none;
+	color: white;
+}
+span.active-line{
+	display: block;
+	border:1px solid #e44f4b;
+	width: 30px;
+	margin: 20px auto;
+	transition: width 0.4s ease-in-out;
+}
+span.active-line:hover{
+	width: 200px;
+}
+#eighth-box{
+	margin: 100px auto;
+	text-align: center;
+}
+#eighth-box h2{
+	font-weight: normal;
+}
+#eighth-box p{
+	color: #b5b5b5;
+	width: 33.3%;
+	margin: 0 auto;
+}
+#ninth-box{
+	overflow: auto;
+}
+#ninth-box div.form{
+	float: right;
+	margin: 0 13% 0 3%;
+	width: 50%
+}
+#ninth-box div.form input[type="text"]{
+	float: left;
+	width: 48%;
+	margin: 1%;
+	padding: 0 10px;
+	height: 3em;
+	line-height: 3em;
+	box-sizing: border-box;
+	border-style: hidden;
+	background-color: #ededef;
+}
+#ninth-box div.form textarea{
+	float: left;
+	width: 98%;
+	margin: 1%;
+	padding: 0 10px;
+	height: 10em;
+	line-height: 2em;
+	box-sizing: border-box;
+	border-style: hidden;
+	background-color: #ededef;
+}
+#ninth-box div.form a{
+	float: left;
+	width: 98%;
+	margin: 1%;
+	height: 2.4em;
+	line-height: 2.4em;
+	background-color: #ededef;
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+}
+#ninth-box div.form *::-webkit-input-placeholder{
+	color: #757374;
+}
