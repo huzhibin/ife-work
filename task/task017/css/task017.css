@@ -1,0 +1,21 @@
+#aqi-chart-wrap{
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	min-height: 500px;
+	background-color: #ff99ad;
+	overflow: hidden;
+}
+#myCanvas{
+	display: block;
+	/*width: 600px;*/
+	margin: 20px auto;
+	border: 2px solid orange;	
+	background-color: grey;
+}
+.domBar{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 5px;
+}

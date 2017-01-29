@@ -1,0 +1,15 @@
+#boxWrapper{
+	position: relative;
+	overflow: hidden;
+	margin: 20px auto;
+	width: 800px;
+	min-height: 400px;
+	background-color: pink;
+}
+.boxNum{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 10px;
+	background-color: red;
+}

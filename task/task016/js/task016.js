@@ -13,8 +13,8 @@ var aqiData = {};
  * 然后渲染aqi-list列表，增加新增的数据
  */
 function addAqiData() {
-	var cityReg = /^([\u4e00-\u9fa5a-zA-Z]+)$/gi;
-	var aqiReg = /^(0|[1-9][0-9]*)$/g;
+	var cityReg = /^([\u4e00-\u9fa5a-zA-Z]+)$/;
+	var aqiReg = /^(0|[1-9][0-9]*)$/;
 	var city = document.getElementById('aqi-city-input');
 	var aqi = document.getElementById('aqi-value-input');
 	if(!cityReg.test(city.value.trim())){
