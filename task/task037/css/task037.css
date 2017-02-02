@@ -1,0 +1,12 @@
+body{
+	height: 1200px;
+}
+.showPopupWrapper{
+	overflow: auto;
+	margin: 10px 0;
+	background-color: blue;
+}
+input[type="button"]{
+	display: block;
+	margin: 30px auto;
+}
