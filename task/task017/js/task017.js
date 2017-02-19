@@ -150,7 +150,17 @@ function domRender(){
     var domDiv = document.createElement("div");
     domDiv.className = "domBar";
     domDiv.title = attr + "\n" + height;
-    domDiv.style.backgroundColor = fillColor[i%5];
+    if(height >= 400 ){
+      domDiv.style.backgroundColor = 'black';
+    }else if(height >= 300){
+      domDiv.style.backgroundColor = 'purple';
+    }else if(height >= 200){
+      domDiv.style.backgroundColor = 'red';
+    }else if(height >= 100){
+      domDiv.style.backgroundColor = 'blue';
+    }else{
+      domDiv.style.backgroundColor = 'green';
+    }
     domDiv.style.width = barWidth;
     domDiv.style.height = height;
     domDiv.style.left = beginPos;
@@ -161,6 +171,7 @@ function domRender(){
 /**
  * 渲染图表
  */
+
 function renderChart() {
   // canvasRender(); //用canvas绘制柱状图
   domRender(); //用dom绘制柱状图
@@ -262,6 +273,7 @@ function initAqiChartData() {
       chartData[city]["day"] = {};
       chartData[city]["week"] = {};
       chartData[city]["month"] = {};
+      //重置数据
       dat = new Date("2016-01-01");
       weekSum = 0; //本周数据之和
       monthSum = 0; //本月数据之和

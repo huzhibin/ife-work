@@ -12,13 +12,15 @@
 		<input type="button" name="" value="showPopup">
 	</div>
 
-	<div class="popupLayer">
-		<h1 class="title"></h1>
-		<p class="promptMsg"></p>
-		<input class="button" type="button" name="confirm" value="确定">
-		<input class="button" type="button" name="cancel" value="取消">
+	<div id="popupLayer">
+		<div class="js_popupLayer">
+			<strong class="title"></strong>
+			<p class="content"></p>
+			<a class="confirm" href="javascript:void(0);">确定</a>
+			<a class="cancel" href="javascript:void(0);">取消</a>
+		</div>
 	</div>
-	<!-- <script type="text/javascript" src="./js/popupLayer.js"></script> -->
+	<script type="text/javascript" src="./js/popupLayer.js"></script>
 	<script type="text/javascript" src="./js/task037.js"></script>
 </body>
 </html>
